@@ -25,6 +25,9 @@ They say taht the limitation size of an uploading file is 24 MBytes. [Ref.](http
     - Click "OK"
 
 ## 2. Paste following script on Script Editor.
+
+**After pasted it, please run ``doPost()`` on Google Script Editor and authorize the script at [Authorization for Google Services](https://developers.google.com/apps-script/guides/services/authorization).** This is an important point.
+
 ~~~javascript
 function doPost(e) {
   if (e.parameters.method == "download") {
